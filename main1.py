@@ -34,4 +34,9 @@ def hello_world():
 # SECOND http GET request
 @app.route("/greeting")
 def custom_message():
-    return "<h1>Good morning</h1>"
+
+    import requests
+
+    response = requests.get("https://swapi.dev/api/films/1")
+    # store response in DB
+    return "<h1>data has been saved in DB</h1"
