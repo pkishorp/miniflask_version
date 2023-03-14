@@ -1,6 +1,5 @@
 """
 Hello world application of Flask
-
 Command - `flask --app main run`
 
 - HOME URL

@@ -5,6 +5,7 @@ TOPIC :
 2. how to pass dynamic values in html page?
 #############################################################################
 
+
 Notes
 How to use python expressions and variable names to produce dynamic html page?
 for expression in html, tag is  -

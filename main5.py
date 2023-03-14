@@ -1,6 +1,5 @@
 import json
 from flask import Flask, request
-
 from pydantic import BaseModel
 from pydantic.error_wrappers import ValidationError as pydantic_validation_error
 

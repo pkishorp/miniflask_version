@@ -9,7 +9,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 @app.route("/hello")   # URL-binding
 def basic():
     return render_template("basic.html")

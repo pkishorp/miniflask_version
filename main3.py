@@ -5,7 +5,6 @@ how to run flask application as script? (instead of using long CLI command)
 
 from flask import Flask
 
-
 app = Flask(__name__)
 
 
